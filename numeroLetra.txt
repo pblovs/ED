@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+int main() {
+    char c;
+    printf("Ingresa un carácter: ");
+    scanf("%c", &c);
+    if (c >= '0' && c <= '9')
+        printf("Es un número\n");
+    else
+        printf("Es una letra\n");
+    return 0;
+}
